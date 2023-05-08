@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText="Tik Tok Sadboy",Name="Sadboy - Hack Lụm Rương Không Bị Kick Siêu Vip Pro ", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
+local Window = OrionLib:MakeWindow({IntroText="Tik Tok Sadboy",Name="Sadboy - Hack Lụm Rương Không Bị Kick Siêu Vip Pro ", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"
 
 -- Tabs
 local MainTab = Window:MakeTab({
@@ -22,7 +22,7 @@ MainTab:AddButton({
 })
 MainTab:AddButton({
 	Name = "Bật Bản HACK",
-	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Padupo/scrnohop/main/subautochest"))();
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sadboy/scrnohop/main/subautochest"))();
   	end    
 })
 
