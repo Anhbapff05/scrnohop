@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Yotube Hòa Poy Tv",Name = "Hòa Poy Tv - Hack Cày beli + Lấy Key Râu Con Cặc", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
+local Window = OrionLib:MakeWindow({IntroText = "Tik tok Sadboy",Name = "Sadboy - Hack Lụm Rương Siêu Vip", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
 
 -- Tabs
 local MainTab = Window:MakeTab({
@@ -16,7 +16,7 @@ MainTab:AddButton({
   	end    
 })
 MainTab:AddButton({
-	Name = "Hãy Đăng Kí Kênh Yotube Hòa Poy Tv Nhé",
+	Name = "Mọi Người Hãy Flollower Kênh Tik Tok Mình Nhé",
 	Callback = function()   
   	end    
 })
@@ -28,11 +28,11 @@ MainTab:AddButton({
 
 
 local CreditsTab = Window:MakeTab({
-	Name = "Sex 😏",
+	Name = "Ib Zalo 😍",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-CreditsTab:AddParagraph("Sao bạn lại bấm vào đây ,ở đây làm chó gì có sex đâu","haha")
+CreditsTab:AddParagraph("Anh em cần giúp gì,ib zalo 0962468096","Kaka")
 
 coroutine.resume(NotificationCoroutine)
 
