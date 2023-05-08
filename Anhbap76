@@ -1,0 +1,65 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({IntroText="Tik Tok Sadboy",Name="Sadboy - Hack Lụm Rương Không Bị Kick Siêu Vip Pro ", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"
+
+-- Tabs
+
+local MainTab = Window:MakeTab({
+
+	Name = "Chức Năng",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+-- Button
+
+MainTab:AddButton({
+
+	Name = "Nếu Bạn Muốn Có các Bản Hack Ngon Anti Ban",
+
+	Callback = function()   
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Anh Em Flollower Kênh TikTok Để Có Bản Script Mới Nhé",
+
+	Callback = function()   
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Bật Bản HACK",
+
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sadboy/scrnohop/main/subautochest"))();
+
+  	end    
+
+})
+
+local CreditsTab = Window:MakeTab({
+
+	Name = "Ib Zalo 😍",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+CreditsTab:AddParagraph("Anh em cần giúp gì,ib zalo 0962468096","kaka")
+
+coroutine.resume(NotificationCoroutine)
+
+OrionLib:Init()
+
+task.wait(2)
